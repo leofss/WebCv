@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: white;
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: 'Work Sans', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.logo{
+    float: left;
+    margin-left: 10px;
+}
+
+.barra{
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+}
+
+li{
+    margin-left: 60px;
+}
